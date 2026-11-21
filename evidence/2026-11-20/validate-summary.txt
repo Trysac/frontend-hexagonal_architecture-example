@@ -1,0 +1,11 @@
+OK test/use-cases-unit-tests functional-basic install=0 lint=0 test=0 expected=pass Tests:       14 passed, 14 total
+OK test/use-cases-unit-tests functional-currying install=0 lint=0 test=0 expected=pass Tests:       13 passed, 13 total
+OK ci/root-workflow functional-basic install=0 lint=0 test=0 expected=pass Tests:       5 passed, 5 total
+OK ci/root-workflow functional-currying install=0 lint=0 test=0 expected=pass Tests:       4 passed, 4 total
+OK gitleaks ci/root-workflow
+OK gitleaks test/use-cases-unit-tests
+OK gitleaks dir docs
+OK gitleaks dir devlog
+OK gitleaks dir scripts
+OK gitleaks dir README.md
+OK gitleaks dir STATE.md

@@ -1,0 +1,5 @@
+# <branch> <project-dir> <expect: pass|fail>
+test/use-cases-unit-tests functional-basic pass
+test/use-cases-unit-tests functional-currying pass
+ci/root-workflow functional-basic pass
+ci/root-workflow functional-currying pass
