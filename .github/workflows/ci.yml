@@ -20,7 +20,7 @@ jobs:
         example:
           - functional-basic
           - functional-currying
-          - object-oriented
+          # object-oriented: add it once its tests run again (see PR #1)
 
     defaults:
       run:

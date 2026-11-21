@@ -17,6 +17,17 @@
   <a href="https://github.com/codelytv/frontend-hexagonal_architecture-example/stargazers">Stars are welcome 😊</a>
 </p>
 
+## Cambios en este fork
+
+Fork de [CodelyTV/frontend-hexagonal_architecture-example](https://github.com/CodelyTV/frontend-hexagonal_architecture-example) mantenido por Miguel. Las mejoras se preparan en ramas que salen del `main` original para proponerlas por PR; la rama `main` de este fork solo añade esta sección y la documentación del trabajo ([`docs/`](docs), [`devlog/`](devlog)).
+
+| Mejora | Rama | PR al original |
+|---|---|---|
+| Tests unitarios de los casos de uso `createCourse`, `getAllCourses` y `getCourse` en los ejemplos funcionales (+18 tests) | [`test/use-cases-unit-tests`](https://github.com/Trysac/frontend-hexagonal_architecture-example/compare/main...test/use-cases-unit-tests) | Preparado ([texto](docs/prs/01-test-use-cases-unit-tests.body.md)), pendiente de abrir |
+| CI en la raíz: lint y tests de los 3 ejemplos (los workflows de cada carpeta nunca se ejecutaban) | [`ci/root-workflow`](https://github.com/Trysac/frontend-hexagonal_architecture-example/compare/main...ci/root-workflow) | Preparado ([texto](docs/prs/02-ci-root-workflow.body.md)), pendiente de abrir |
+
+Los arreglos de `object-oriented` no se proponen aquí porque ya los cubre el [PR #1](https://github.com/CodelyTV/frontend-hexagonal_architecture-example/pull/1) abierto en el original. Diagnóstico completo: [`docs/diagnostico.md`](docs/diagnostico.md). Validación local: `bash scripts/validate.sh`.
+
 ## Hexagonal architecture: what is it and benefits
 
 Hexagonal architecture, also known as "ports and adapters", is a software design approach that separates the internal workings of a system from its external interactions. In frontend development, this architecture pattern is used to structure the frontend code in a way that allows for modularity, testability, and ease of maintenance. The main idea behind the hexagonal architecture in frontend is to create a clear separation between the presentation layer and the application logic, allowing developers to make changes to either layer without affecting the other.
