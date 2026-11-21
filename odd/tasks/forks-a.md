@@ -21,8 +21,8 @@ Runner: `bash scripts/validate.sh`
 | T4 | Root CI workflow (functional examples; object-oriented after upstream PR #1) | S2, S3 | inline | done (local matrix run green) | 1a050d5..db06077 |
 | T5 | Local validation script and evidence | S5 | inline | done (36 tests) | |
 | T6 | PR texts in docs/prs | S3 | inline | done | |
-| T7 | Open PR test/use-cases-unit-tests to CodelyTV | S3 | user | needs-miguel (approve; command in docs/prs/01-test-use-cases-unit-tests.md) | a817def |
-| T8 | Open PR ci/root-workflow to CodelyTV | S3 | user | needs-miguel (approve; command in docs/prs/02-ci-root-workflow.md) | db06077 |
+| T7 | Open PR test/use-cases-unit-tests to CodelyTV | S3 | user | done (https://github.com/CodelyTV/frontend-hexagonal_architecture-example/pull/2) | a817def |
+| T8 | Open PR ci/root-workflow to CodelyTV | S3 | user | done (https://github.com/CodelyTV/frontend-hexagonal_architecture-example/pull/3, from the single-commit branch ci/run-examples-from-root) | 2a30258 |
 | T9 | README section, description and 8 topics | S4 | inline | done | |
 | T10 | Independent reviews (code, security, architecture+spec) | S5 | delegated | done (docs/reviews/) | |
 | T11 | Run Cypress e2e of object-oriented | S5 | user | needs-miguel (allow Cypress binary + browser, about 1.5 GB RAM; not required by the PRs) | |

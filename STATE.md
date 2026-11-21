@@ -19,4 +19,4 @@ none
 | Block | Content | Status | Verify |
 |---|---|---|---|
 | B1 | Sync, diagnosis, 2 PR branches, docs and validation | done | `bash scripts/validate.sh` |
-| B2 | Open the 2 PRs to CodelyTV | needs-miguel (approve each PR) | `gh pr list -R CodelyTV/frontend-hexagonal_architecture-example --author Trysac` |
+| B2 | Open the 2 PRs to CodelyTV | done (#2 and #3 opened 2026-11-21 with Miguel's OK; waiting for the maintainer) | `gh pr list -R CodelyTV/frontend-hexagonal_architecture-example --author Trysac` |

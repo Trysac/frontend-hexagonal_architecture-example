@@ -1,6 +1,6 @@
 # PR preparado · `test/use-cases-unit-tests`
 
-- **Estado:** needs-miguel (aprobar antes de abrir el PR hacia CodelyTV)
+- **Estado:** abierto el 2026-11-21 con el OK de Miguel: https://github.com/CodelyTV/frontend-hexagonal_architecture-example/pull/2
 - **Base:** `CodelyTV/frontend-hexagonal_architecture-example:main` · **Head:** `Trysac:test/use-cases-unit-tests` (commits `3cecbbc`, `a817def`)
 - **Comando para abrirlo** (solo con el OK de Miguel):
 

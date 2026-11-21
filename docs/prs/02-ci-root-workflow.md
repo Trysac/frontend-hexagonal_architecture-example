@@ -1,6 +1,6 @@
 # PR preparado · `ci/root-workflow`
 
-- **Estado:** needs-miguel (aprobar antes de abrir el PR hacia CodelyTV)
+- **Estado:** abierto el 2026-11-21 con el OK de Miguel: https://github.com/CodelyTV/frontend-hexagonal_architecture-example/pull/3. Se abrió desde `ci/run-examples-from-root`, un solo commit (`2a30258`) con el mismo árbol que `ci/root-workflow`, sin el cambio de README y su reversión.
 - **Base:** `CodelyTV/frontend-hexagonal_architecture-example:main` · **Head:** `Trysac:ci/root-workflow` (commits `1a050d5`, `e7d61ce`, `999ea05`, `68174fa`, `db06077`; diff neto: solo `.github/workflows/ci.yml`)
 - **Nota:** `object-oriented` queda fuera de la matriz hasta que se integre el PR #1 del original (de otra persona), que arregla sus tests.
 - **Comando para abrirlo** (solo con el OK de Miguel):

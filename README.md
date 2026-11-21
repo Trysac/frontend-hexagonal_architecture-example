@@ -23,8 +23,8 @@ Fork de [CodelyTV/frontend-hexagonal_architecture-example](https://github.com/Co
 
 | Mejora | Rama | PR al original |
 |---|---|---|
-| Tests unitarios de los casos de uso `createCourse`, `getAllCourses` y `getCourse` en los ejemplos funcionales (+18 tests) | [`test/use-cases-unit-tests`](https://github.com/Trysac/frontend-hexagonal_architecture-example/compare/main...test/use-cases-unit-tests) | Preparado ([texto](docs/prs/01-test-use-cases-unit-tests.body.md)), pendiente de abrir |
-| CI en la raíz: lint y tests de los ejemplos funcionales (los workflows de cada carpeta nunca se ejecutaban) | [`ci/root-workflow`](https://github.com/Trysac/frontend-hexagonal_architecture-example/compare/main...ci/root-workflow) | Preparado ([texto](docs/prs/02-ci-root-workflow.body.md)), pendiente de abrir |
+| Tests unitarios de los casos de uso `createCourse`, `getAllCourses` y `getCourse` en los ejemplos funcionales (+18 tests) | [`test/use-cases-unit-tests`](https://github.com/Trysac/frontend-hexagonal_architecture-example/compare/main...test/use-cases-unit-tests) | [PR #2](https://github.com/CodelyTV/frontend-hexagonal_architecture-example/pull/2), abierto el 2026-11-21 |
+| CI en la raíz: lint y tests de los ejemplos funcionales (los workflows de cada carpeta nunca se ejecutaban) | [`ci/run-examples-from-root`](https://github.com/Trysac/frontend-hexagonal_architecture-example/compare/main...ci/run-examples-from-root) | [PR #3](https://github.com/CodelyTV/frontend-hexagonal_architecture-example/pull/3), abierto el 2026-11-21 |
 
 Los arreglos de `object-oriented` no se proponen aquí porque ya los cubre el [PR #1](https://github.com/CodelyTV/frontend-hexagonal_architecture-example/pull/1) abierto en el original. Diagnóstico completo: [`docs/diagnostico.md`](docs/diagnostico.md). Validación local: `bash scripts/validate.sh`.
 
